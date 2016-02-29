@@ -13,6 +13,9 @@
 		266E2C0B1C7313B100F9A371 /* Weather_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 266E2C091C7313B100F9A371 /* Weather_App.xcdatamodeld */; };
 		266E2C0D1C7313B100F9A371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266E2C0C1C7313B100F9A371 /* Assets.xcassets */; };
 		266E2C101C7313B100F9A371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266E2C0E1C7313B100F9A371 /* LaunchScreen.storyboard */; };
+		26F381A21C736E3000255305 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F381A11C736E3000255305 /* Constants.swift */; };
+		26F381A41C736F2A00255305 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F381A31C736F2A00255305 /* Weather.swift */; };
+		26F381A61C74493D00255305 /* basictitlefont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26F381A51C74493D00255305 /* basictitlefont.ttf */; };
 		4E61EC5E28B0F6C9070F071E /* Pods_Weather_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521602C2341F3D7F1486CBF9 /* Pods_Weather_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		266E2C0C1C7313B100F9A371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		266E2C0F1C7313B100F9A371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		266E2C111C7313B100F9A371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F381A11C736E3000255305 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		26F381A31C736F2A00255305 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		26F381A51C74493D00255305 /* basictitlefont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = basictitlefont.ttf; sourceTree = "<group>"; };
 		521602C2341F3D7F1486CBF9 /* Pods_Weather_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B0415188B529CF03AB016A3 /* Pods-Weather-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather-App/Pods-Weather-App.release.xcconfig"; sourceTree = "<group>"; };
 		E9343CEB46D6A81867FFD520 /* Pods-Weather-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather-App/Pods-Weather-App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 				266E2C0E1C7313B100F9A371 /* LaunchScreen.storyboard */,
 				266E2C111C7313B100F9A371 /* Info.plist */,
 				266E2C091C7313B100F9A371 /* Weather_App.xcdatamodeld */,
+				26F381A51C74493D00255305 /* basictitlefont.ttf */,
+				26F381A11C736E3000255305 /* Constants.swift */,
+				26F381A31C736F2A00255305 /* Weather.swift */,
 			);
 			path = "Weather-App";
 			sourceTree = "<group>";
@@ -154,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				266E2C101C7313B100F9A371 /* LaunchScreen.storyboard in Resources */,
+				26F381A61C74493D00255305 /* basictitlefont.ttf in Resources */,
 				266E2C0D1C7313B100F9A371 /* Assets.xcassets in Resources */,
 				266E2C081C7313B100F9A371 /* Main.storyboard in Resources */,
 			);
@@ -217,6 +227,8 @@
 				266E2C0B1C7313B100F9A371 /* Weather_App.xcdatamodeld in Sources */,
 				266E2C051C7313B100F9A371 /* ViewController.swift in Sources */,
 				266E2C031C7313B100F9A371 /* AppDelegate.swift in Sources */,
+				26F381A21C736E3000255305 /* Constants.swift in Sources */,
+				26F381A41C736F2A00255305 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
